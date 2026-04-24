@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Flawless BMR Calculator</title>
+	<script src = "script.js" defer></script>
+	<link rel = "stylesheet" href = "style.css">
+</head> 
+<body>
+	<div id = "My-Panel">
+	<h1>Flawless BMR Calculator</h1>
+	<p>Calculate your Basal Metabolic Rate with flawless accuracy !</p>
+	<div class = "Buttons-and-Inputs">
+	<div class = "dropdown-input">
+		<select id = "gender">
+			<option value = "male">Male</option>
+			<option value = "female">Female</option>
+		</select>
+	 </div>
+	 <div id = "age-inputbox">
+		<input type = "number" id ="age-input" placeholder = "Enter your age...">
+	 </div>
+	 <div class = "dropdown-input">
+		<input type = "number" id = "weight-input" placeholder = "Enter weight..."> 
+		<select id ="weight-unit">
+			<option value = "kg">kg</option>
+			<option value = "lb">lb</option>
+		</select>
+	 </div>
+	 <div class = "dropdown-input">
+		<input type = "number" id = "height-input" placeholder = "Enter height...">
+		<select id = "height-unit">
+			<option value = "cm">cm</option>
+			<option value = "ft">ft</option>
+		</select>
+	 </div>
+	 <button id = "Calculate-button">CALCULATE</button>
+	 <div id = "Result-box">
+		<p id ="Result-text">      
+			<input type = "text" id ="Resultinput" value ="0"readonly >
+		</p>
+	 </div>
+	 </div>
+	 </div>
+</body>
+</html>
