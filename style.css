@@ -11,7 +11,7 @@ body{
 	justify-content:center;
 	align-items:center;
     margin:0;
-	background-color:black; /*burda sayfanın yani bodynin tüm içeriğinin,minimum ekran boyutu kadar olmasını ayarlayarak,ekranda boşluk kalmamasını ve 
+	background-color:rgb(208, 204, 204); /*burda sayfanın yani bodynin tüm içeriğinin,minimum ekran boyutu kadar olmasını ayarlayarak,ekranda boşluk kalmamasını ve 
 	sayfa daha da uzarsa ekranın aşağı doğru kayabilmesini sağladık,sonra body'deki elemanların x ekseninde ve y ekseninde tam ortada olmasını,sayfanın
 	kenarlarındaki boşlukların(margin) 0'a inmesini ve en sonda da sayfanın arka planının beyaz olmasını sağladık.HTML'de oluşturduğumuz body,sayfa diye bahsettiğimiz şeyi oluşturuyor.*/
 }
@@ -197,6 +197,7 @@ body{
 	min-height:100vh;
 	height:100vh !important;
 	overflow:hidden;
+	background-color:black;
 }
 }
 
