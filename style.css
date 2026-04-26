@@ -121,8 +121,8 @@ border-radius:15px;
 }
 @media (max-width:1100px){
 	#My-Panel{
-      width:98% !important;
-	  height:auto !important;
+      width:99% !important;
+	  height:100vh%!important;
 	  margin : 5px !important ;
 	  border:3px solid #000000;
 	}
@@ -140,31 +140,32 @@ border-radius:15px;
 	white-space: nowrap;
 	}
 	p{
-		font-size:14px !important;
+		font-size:12px !important;
 		height:auto!important;
 	}
    select,
 input,
-button{ 
+button{
 	height:55px;
 	padding:10px;
 	font-size:16px;
-
 }
 .dropdown-input{ 
-width:90%;
+width:99%;
 border: 1px solid #ccc;
 border-radius:8px;
 max-width:320px;
 }
 .dropdown-input input{
-	width:70%;
+	width:79%;
 	border-radius:8px;
 }
 .dropdown-input select{
 	border-radius:8px;
 	width:20%;
 }
+#gender{width:99%;
+text-align:center;}
 #Resultinput{	/* text align center var sadece.Ama okey.*/
 	border-radius:8px;
 		height:65px;
@@ -175,18 +176,24 @@ max-width:320px;
 #Calculate-button{
  /*center şeyleri ok*/
 	letter-spacing: 1px;
-	width:90%;
+	width:99%;
 	height:60px;
 	font-size: 16px;
 	max-width:320px;	
     
 }
-#age.inputbox{
-	width:90%;
+#age-inputbox{
+	width:99%;
 	height:55px;
 	max-width:320px;
 }
+body{
+	height:100vh !important;
+	overflow:hidden;
+	align-items:flex-start;
 }
+}
+
 
 /*
 Panel tam ortada.
