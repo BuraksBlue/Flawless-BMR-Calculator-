@@ -95,6 +95,7 @@ border-radius:15px;
 	font-size:20px;
 	font-weight:100;
     font-style:italic;
+    background-color:#007BFF;
 }
 #Result-text{
 	display:flex;
@@ -179,7 +180,7 @@ text-align:center;}
 	width:99%;
 	height:60px;
 	font-size: 16px;
-	max-width:320px;	
+	max-width:320px;
     
 }
 #age-inputbox{
