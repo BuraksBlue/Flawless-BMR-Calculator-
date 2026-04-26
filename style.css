@@ -11,7 +11,7 @@ body{
 	justify-content:center;
 	align-items:center;
     margin:0;
-	background-color:rgb(208, 204, 204); /*burda sayfanın yani bodynin tüm içeriğinin,minimum ekran boyutu kadar olmasını ayarlayarak,ekranda boşluk kalmamasını ve 
+	background-color:black; /*burda sayfanın yani bodynin tüm içeriğinin,minimum ekran boyutu kadar olmasını ayarlayarak,ekranda boşluk kalmamasını ve 
 	sayfa daha da uzarsa ekranın aşağı doğru kayabilmesini sağladık,sonra body'deki elemanların x ekseninde ve y ekseninde tam ortada olmasını,sayfanın
 	kenarlarındaki boşlukların(margin) 0'a inmesini ve en sonda da sayfanın arka planının beyaz olmasını sağladık.HTML'de oluşturduğumuz body,sayfa diye bahsettiğimiz şeyi oluşturuyor.*/
 }
@@ -152,20 +152,20 @@ button{
 	font-size:16px;
 }
 .dropdown-input{ 
-width:99%;
+width:100%;
 border: 1px solid #ccc;
 border-radius:8px;
 max-width:320px;
 }
 .dropdown-input input{
-	width:79%;
+	width:80%;
 	border-radius:8px;
 }
 .dropdown-input select{
 	border-radius:8px;
 	width:20%;
 }
-#gender{width:99%;
+#gender{width:100%;
 text-align:center;}
 #Resultinput{	/* text align center var sadece.Ama okey.*/
 	border-radius:8px;
@@ -187,15 +187,16 @@ text-align:center;}
 	width:99%;
 	height:55px;
 	max-width:320px;
+	border-radius:8px;
 }
 #age-input{
 	width:100%;
+	border-radius:8px;
 }
 body{
 	min-height:100vh;
 	height:100vh !important;
 	overflow:hidden;
-	align-items:flex-start;
 }
 }
 
